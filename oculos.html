@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu do futuro- Óculos</title>
+
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin:0;
+            font-family:Arial, Helvetica, sans-serif;
+            background-color:aliceblue;
+            color: rgb(5,5,5);
+
+        }
+
+        header{
+            background-color: #380e3250;
+            color:white;
+            text-align: center;
+            padding:50px 20px;
+
+        }
+
+        header p{
+            color: #FFC0CB;
+
+        }
+        nav{
+            background-color: #93435995;
+            text-align:center;
+            padding: 15px;
+        }
+        nav a {
+            color:white;
+            text-decoration:none;
+            margin:10px;
+        }
+
+        nav a:hover{
+            color: #FCE1E4;
+
+        }
+
+        main{
+            max-width:1000px;
+            margin:auto;
+            padding:30px 20px;
+        }
+        section{
+             background-color: white;
+            margin-bottom:25px;
+            padding:25px;
+            border-radius:10px;
+        }
+        h2{
+            border-bottom:2px solid  #771b76;
+
+
+        }
+
+        .destaque{
+            display:flex;
+            gap:30px;
+            align-items:center;
+        }
+        .destaque img{
+            width:40%;
+            border-radius: 5px;
+        }
+        .codigo{
+            color:#FFF0BA;
+            font-size:14px;
+        }
+        .etiqueta{
+            display:inline-block;
+            background-color: #FFD1DC;
+            padding:8px 12px;
+            border-radius:20px;
+            font-weight:bold;
+        }
+        .hipoteses{
+            display:flex;
+            gap:15px;
+        }
+        article{
+            flex:1;
+            background-color:azure ;
+            padding: 18px;
+            border-radius:8px;
+        }
+        aside{
+            background-color:white;
+            color:rgb(3, 3, 3);
+            padding:25px;
+            border-radius:10px;
+            margin-bottom:25px;
+
+        }
+        blockquote{
+            border-left:4px solid #FFD1DC;
+            margin-left:0;
+            padding:20px;
+            font-style: italic;
+        }
+        table{
+            width:100%;
+            border-collapse:collapse;
+        }
+        th,td{
+            border:1px solid #ccc;
+            text-align:left;
+
+        }
+        th{
+            background-color: 333;
+            color:white;
+            text-align:center;
+        }
+
+        .alert{
+            background-color:#fff1d6;
+            border-left: 6px solid #d59326;
+        }
+        footer{
+            background-color:#b5648c;
+            color:white;
+            text-align:center;
+            padding:30px;
+            font-size:16px;
+        }
+        @media (max-width:700px){
+            .destaque.hipoteses{
+                flex-direction:column;
+            }
+            .destaque img{
+                width: 60px;
+            }
+            nav a{
+                display:block;
+            }
+            table{
+                font-size:13px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p> MUSEU DE ARQUEOLOGIA DIGITAL</p>
+
+        <h1> Arquivo Histórico-2200</h1>
+
+        <p>
+            Reconstruindo os misteriosos costumes da humanidade do Século XXI
+        
+        </p>
+    </header>
+
+    <nav>
+        <a href="#artefato"> Artefatos</a>
+         <a href="#descobertas"> Descobertas</a>
+          <a href="#hipoteses"> Hipóteses</a>
+           <a href="#evidencias"> Evidências</a>
+            <a href="#arqueologo"> Arqueólogos</a>
+    </nav>
+
+    <main>
+        <section id="artefato" class=" destaque">
+             <img src="https://static.relojoariaeoticasuica.com.br/public/relojoariaeoticasuica/imagens/produtos/armacao-para-oculos-difaty-feminina-nude-646ba415efcb4.jpg" alt="foto de um oculos">
+
+             <article>
+                <p>  001- ÓCULOS</p>
+
+                <H2> Óculos</H2>
+
+                <p class="etiqueta">
+                    Importância cultural:8/10
+                </p>
+
+                <p>
+                    Algo utilizado pela civilização
+                    Brasileira.
+                    
+
+                    <p> 
+                        Registros digitais sugerem que seu papel
+                        ultrapassava além da visão.
+                    </p>
+
+                    <p> 
+                        Alguns habitantes da época chegaram a declarar: </p>
+
+                        <blockquote> "Se eu não pegar meu óculos, não consigo ler"</blockquote>
+                </p>
+             </article>
+        </section>
+
+        <section id="Descoberta">
+            <h2> Local da descoberta</h2>
+
+            <p> Este objeto foi encontrado em 17 de março de 2197
+                durante uma pesquisa, aonde esse objeto se tratava de algo muito importante e essencial. 
+            </p>
+
+            <p>
+                <strong> Local historico:</strong>
+                Sorocaba, antiga regiao denomina Interior de São Paulo,Brasil.
+
+            </p>
+
+            <p> O objeto estava sobre uma superficie de madeira artificial que os registros historicos
+                chamavam de <strong> "mesa"</strong>
+
+                <h3> Objetos encontrados proximos</h3>
+
+                <ul>
+                    <li> Livros</li>
+                    <li> Computadores</li>
+                    <li> Redações </li>
+                    <li> Mapas </li>
+                   
+                </ul>
+
+                <blockquote> 
+                    "Não consigo viver sem isso"
+                </blockquote>
+
+                <p> Ate hoje os arqueologos nao conseguem compreender completamente 
+                    a importância disto. 
+                </p>
+            </p>
+        </section>
+
+        <section> 
+            <h2> Descrição fisica</h2>
+
+            <p> Os óculos são dispositivos ópticos formados basicamente por uma armação e duas lentes,
+             projetados para se apoiarem no nariz e nas orelhas sem encostar diretamente nos globos oculares
+            </p>
+
+            <p>
+                <strong> Altura: </strong>varia geralmente entre 30 mm e 45 mm<br>
+                <strong> Peso: </strong> entre 20 e 40 gramas <br>
+                <strong> Material: </strong> acetato, metal, titânio<br>
+                
+            </p>
+
+            <p> 
+                Durante alguns anos acreditou-se que ele servia para outros fins, como tampar sombrancelhas.
+            </p>
+
+        
+        </section>
+
+        <section> 
+            <h2> Função provável</h2>
+
+            <p> Simulações indicavam que os óculos serveriam para adicionar elementos virtuais sobre o mundo real. </p>
+
+            <p> Entretanto a quantidade de registros encontrados sugere
+                que sua importancia social era muito maior. 
+            </p>
+
+            <blockquote> "Colocou o óculos? O mundo real fica sem graça."</blockquote>
+
+            <blockquote> "Depois dele, a TV da sala parece uma tela de celular."</blockquote>
+
+            <p>
+                A expressão "não vivo sem" gerou décadas de discussão entre historiadores. 
+            </p>
+        </section>
+
+        <section id="hipoteses">
+            <h2> Principais hipoteses arqueologicas</h2>
+
+            <div class="hipoteses">
+                <article>
+                    <h3> Hipotese A</h3>
+                    <p>
+                        <strong>  Uma máscara de gás incompleta</strong>
+                    </p>
+                    <p>  
+                        Pelo formato que cobre o rosto, achariam que era parte de um equipamento de sobrevivência contra alguma poluição da nossa época.
+                    </p>
+                </article>
+
+                <article> 
+                    <h3> Hipotese B</h3>
+
+                    <p> 
+                        <strong> Um protetor industrial de fábrica</strong>
+                    </p>
+
+                    <p> 
+                        Achariam que era um equipamento de proteção individual (EPI) rústico para proteger o rosto de faíscas ou estilhaços.
+                    </p>
+                </article>
+
+                <article> 
+                    <h3> Hipotese C</h3>
+
+                    <p> Fonte de energia </p>
+
+                    <p> 
+                        Esta teoria afirma que como ele transformava ar e girava produzido calor,
+                        poderia ser uma usina termo-eletrico em miniatura.
+                    </p>
+                </article>
+
+                <article> 
+                    <h3> Hipotese D</h3>
+
+                    <p> Objeto ritualistico </p>
+
+                    <p> 
+                        Esta teoria afirma  que familias realizavam pequenos rituais envolvendo batatas,frango
+                    </p>
+                </article>
+            </div>
+        </section>
+        <section> 
+            <h2> Recontrucao do ritual</h2>
+
+            <ol> 
+                <li>Pegar os óculos</li>
+                <li>Segurar os óculos pelas  <strong> hastes</strong></li>
+                <li>Abrir as hastes <strong> cuidadosamente</strong> </li>
+                <li> Colocar os óculos sobre o rosto</li>
+                <li>Ajustar a posição dos óculos no nariz e nas orelhas. </li>
+                <li> Observar se as lentes estão limpas e se a visão está confortável <strong> e se a visão está confortável</strong></li>
+                <li> Usar os óculos durante a atividade desejada.</li>
+                <li> Retirar os óculos segurando pelas hastes </li>
+            </ol>
+        </section>
+        
+        <section> 
+            <section id="evidencias">
+                <h2>Evidencias linguísticas</h2>
+                <p> A interpretação da linguagem brasileira do século XXI foi uma das maiores dificuldades 
+                    da investigação.
+                </p>
+
+                <table>
+                    <tr>
+                        <th>Expressao encontrada</th>
+                        <th>Interpretacao em 2200 </th>
+                    </tr>
+
+                   <tr>
+                    <td>“Meus óculos sumiram”</td>
+                    <td> Possível desaparecimento de um objeto essencial</td>
+                   </tr>
+
+                   <tr>
+                    <td>Ficou top</td>
+                    <td>Significado ainda desconhecido</td>
+                   </tr>
+
+                   <tr>
+                    <td>“Estou enxergando tudo embaçado”</td>
+                    <td>Possível falha no sistema de visão</td>
+                   </tr>
+
+                   <tr> 
+                    <td>"Cadê meu óculos?”</td>
+                    <td>Busca urgente por um dispositivo visual </td>
+                   </tr>
+
+                   <tr>
+                  <td>“Preciso limpar a lente” </td>
+                  <td>Manutenção necessária do equipamento</td>
+                   </tr>
+
+                   <tr>
+                    <td>“Agora ficou perfeito”</td>
+                    <td>Confirmação de funcionamento adequado </td>
+                   </tr>
+                </table>
+            </section>
+        </section>
+
+        <section>
+            <h2> Fragmentos digitais recuperados</h2>
+
+            <p> 
+                Diversos videos foram recuperados de uma antiga plataforma chamada <strong> Youtube</strong>
+
+            </p>
+            <p> Muitos comecavam com as frases semelhantes:</p>
+
+            <blockquote> 
+                “Você não vai acreditar no que dá para fazer com óculos.”
+            </blockquote>
+
+            <p> 
+               Curiosamente, os vídeos normalmente mostravam pessoas usando os óculos de 
+               maneiras bastante comuns.
+            </p>
+
+            <p>Isso levou alguns pesquisadores a considerar que os habitantes de 2026 possuíam padrões 
+                de surpresa muito diferentes dos atuais. 
+            </p>
+        </section>
+        <aside id="arqueologo">
+           <h2> Comentarios do arqueologo</h2>
+
+           <h3>Dra. Julia bessa regis lagrota</h3>
+
+           <p> 
+            Instituto de arqueologia domestica-2200
+           </p>
+
+           <blockquote>
+            Durante muito tempo acreditamos que a expressao "é vida" fosse utilizada de maneira
+            figurativa
+           </blockquote>
+
+           <blockquote> 
+            Entretanto, encontramos referências semelhantes envolvendo café, pizza,
+             sexta-feira, férias, Wi-Fi e óculos.
+           </blockquote>
+
+           <blockquote> 
+            É improvável que todos esses elementos fossem simultaneamente 
+            responsáveis pela existência humana.
+           </blockquote>
+
+           <P>
+           Atualmente, trabalhamos com a hipótese de que os humanos de 2026 utilizavam a palavra 
+           “vida” com uma liberdade semântica extraordinária.
+           </P>
+        </aside>
+
+        <section>
+            <h2> teorias rejeitadas</h2>
+
+            <h3>Óculos utilizados como acessórios de cabelo </h3>
+
+            <p> 
+               Durante algum tempo, acreditou-se que os óculos poderiam ser utilizados para 
+               prender ou organizar pequenas partes do cabelo.
+            </p>
+
+            <p> 
+                A hipotese foi abandonada depois de experimentos classificados como <strong> "lamentavel"</strong>
+            </p>
+
+            <h3> Armazenamento de objetos pequenos</h3>
+
+            <p> 
+                Outro grupo defendeu que os óculos poderiam ser utilizados para guardar pequenos objetos entre as lentes e as hastes.
+            </p>
+
+            <p> 
+               A teoria continua tecnicamente possível, embora não existam evidências de que essa fosse sua verdadeira função.
+            </p>
+        </section>
+
+        <section> 
+            <h2> Objeto associado: pano para limpar lentes</h2>
+
+            <p> 
+             Próximo aos óculos foi encontrado um pequeno tecido contendo marcas e resíduos.
+            </p>
+
+            <p> 
+               Posteriormente, ele foi identificado como um <strong>pano para limpeza de lentes</strong>
+            </p>
+
+            <p> Alguns pesquisadores defendem que o pano era utilizado para melhorar a visão,
+                 removendo sujeiras que dificultavam a utilização dos óculos.
+            </p>
+
+            <P> 
+                Entretanto, outros pesquisadores acreditam que o objeto poderia possuir funções adicionais ainda desconhecidas.
+            </P>
+        </section>
+
+
+        <p> departamento de estudos de estranha civilização do século XXI</p>
+    </footer>
+</body>
+</html>
